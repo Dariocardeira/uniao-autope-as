@@ -1,0 +1,73 @@
+#maps{
+    text-align: center;
+}
+/*carocel*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+/* botao do whatsapp*/
+  .btn-whatsapp{
+    position: fixed;
+    outline: none;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+    background:#34af23;
+    color:#fff;
+    font-size: 2.3rem;
+    border: 1px solid #f1f1f1;
+
+    animation-name :pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function:ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running
+    ;
+    
+  }
+  @keyframes pulsar{
+    0%{
+      height: 65px;
+      width: 65px;
+    }
+    100%{
+      height: 85px;
+      width: 85px;
+    }
+  }/* fim do botao do whatsapp*/
